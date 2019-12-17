@@ -181,9 +181,21 @@ img {
 .formGroup {
   display: flex;
   flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
 }
 
 .myBtn {
-  width: 200px;
-  height: 25px;
+  width: 150px;
+  height: 40px;
+  font-size: 16px;
+  color: white;
+  background-color: black;
+  border: none;
+  margin-top: 40px;
+}
+
+.formContainer {
+  display: flex;
+  flex-direction: row;
 }
